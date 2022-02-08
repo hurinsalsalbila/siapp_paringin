@@ -95,6 +95,7 @@ Route::get('home', [HomeController::class, 'index'])->name('home');
 Route::get('admin/usulandata/cetakpdf', [UsulanDataController  ::class, 'cetakpdf'])->name('admin.usulandata.cetakpdf');
 Route::get('admin/usulandata/laporan', [UsulanDataController  ::class, 'laporan'])->name('admin.usulandata.laporan');
 Route::get('admin/usulandata/laporan', [UsulanDataController  ::class, 'laporan'])->name('admin.usulandata.laporan');
+Route::get('admin/usulandata/cetak-pertanggal/{tglawal}/{tglakhir}', [UsulandataController  ::class, 'cetakusulandataPertanggal'])->name('admin.usulandata.laporanpertanggal');
 
 //surat Lap Kependudukan
 Route::get('admin/lapkependudukan', [LaporanKependudukanController::class, 'index'])->name('admin.lapkependudukan'); 

@@ -103,4 +103,10 @@ class UsulanDataController extends Controller
             return view('admin.usulandata.laporan');
         }
     }
+
+    public function cetaksuratrekomendasiPertanggal($tglawal, $tglakhir)
+    {
+        $cetaklaporan = UsulanData::orderBy('id')->whereBetween('tgl_surat',[$tglawal, $tglakhir])->get();
+        return view('admin.usulandata.cetak_lap_per_tanggal', compact('cetaklaporan'));
+    }
 }

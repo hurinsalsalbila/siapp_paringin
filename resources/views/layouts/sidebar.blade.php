@@ -69,6 +69,14 @@
                                 Dispensasi Nikah
                             </a>
                         </li>
+                        <li><a class="nav-link" href="{{ route('admin.suratrekomendasi.laporan') }}">lap.
+                                Surat Rekomendasi</a>
+                        <li><a class="nav-link" href="{{ route('admin.suratmasuk.laporan') }}">laporan Surat
+                                Masuk</a>
+                        <li><a class="nav-link" href="{{ route('admin.lapkependudukan.laporan') }}">laporan
+                                Kependudukan</a>
+                        <li><a class="nav-link" href="{{ route('admin.usulandata.laporan') }}">laporan
+                                Usulan Data</a>
                     @endif
                 </ul>
             </li>

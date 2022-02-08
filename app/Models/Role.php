@@ -10,6 +10,7 @@ class Role extends Model
     use HasFactory;
 }
 class User extends Authenticatable {
+
     public function roles() {
         return $this->belongsToMany(Role::class, 'user_role');
     }

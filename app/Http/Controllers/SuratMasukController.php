@@ -44,7 +44,7 @@ class SuratMasukController extends Controller
             $nomer = 'NO/' . $urut . '/' . 'DATA' .$thnBulan . '/';
         }
         // N
-        return view('admin.suratmasuk.create', compact('id', 'tanggal', 'nomer'));  
+        return view('admin.suratmasuk.create', compact('id'));  
     }
 
     /**

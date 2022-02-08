@@ -25,9 +25,8 @@
                             PEMERINTAH DAERAH KABUPATEN BALANGAN</b><br />
                         <b>KECAMATAN PARINGIN SELATAN</b>
                     </font><br />
-                    <span style="font-size:10pt;"><b>Jl. Tes Raya Bypass RT. 1 Kel. Murung Pudak Telp.(0274) 513036
-                            Fax. 561690</b><br /><b>
-                            website : www.kecparingin.balangankab.go.id email : kecparingin@yahoo.com</b></span>
+                    <span style="font-size:10pt;"><b>Jl. Ahmad Yani Paringin Telp.(0526) 2094137
+                            Kodepos 71611</b><br /></span>
             </td>
             <th>
             </th>
@@ -43,11 +42,13 @@
         <thead>
             <tr>
                 <th>No</th>
-                <th>No Berkas</th>
+                <th>Nama</th>
                 <th>Alamat Pengirim</th>
-                <th>Nomor Surat</th>
-                <th>Tanggal Surat</th>
-                <th>Perihal</th>
+                <th>No Telepon Surat</th>
+                <th>Alamat Usaha</th>
+                <th>Jenis Reklame</th>
+                <th>Nama Toko</th>
+                <th>Ukuran</th>
             </tr>
         </thead>
         <tbody>
